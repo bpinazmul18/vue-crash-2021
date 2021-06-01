@@ -2,7 +2,7 @@
   <div :class="[task.reminder ? 'reminder' : '', 'task']">
     <h3>
       {{ task.text }}
-      <i v-on:click="handleDelete(task.id)" class="fas fa-times"></i>
+      <i @click="onDelete(task.id)" class="fas fa-times"></i>
     </h3>
     <p>{{ task.day }}</p>
   </div>
@@ -15,8 +15,8 @@ export default {
     task: Object,
   },
   methods: {
-    handleDelete(id) {
-      console.log(id);
+    onDelete(id) {
+      this.$emit("delete-task", id);
     },
   },
 };
