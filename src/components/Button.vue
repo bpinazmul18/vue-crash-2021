@@ -1,9 +1,5 @@
 <template>
-  <button
-    v-on:click="addTaskHandler"
-    :style="{ background: color }"
-    class="btn"
-  >
+  <button @click="addTaskHandler()" :style="{ background: color }" class="btn">
     Add Task
   </button>
 </template>
@@ -18,8 +14,8 @@ export default {
     color: String,
   },
   methods: {
-    addTaskHandler(e) {
-      console.log("you click me!", e);
+    addTaskHandler() {
+      console.log("you click me!");
     },
   },
 };
