@@ -10,6 +10,7 @@
     "@vue/devtools": "^5.3.4",
     "core-js": "^3.6.5",
     "prettier": "^2.3.0",
+    "serve": "^11.3.2",
     "vue": "^3.0.0"
   },
   "devDependencies": {
