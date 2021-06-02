@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@vue/devtools": "^5.3.4",
     "core-js": "^3.6.5",
     "prettier": "^2.3.0",
     "vue": "^3.0.0"

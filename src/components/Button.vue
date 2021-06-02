@@ -1,6 +1,6 @@
 <template>
-  <button @click="addTaskHandler()" :style="{ background: color }" class="btn">
-    Add Task
+  <button @click="onClick" :style="{ background: color }" class="btn">
+    {{ text }}
   </button>
 </template>
 
@@ -8,14 +8,12 @@
 export default {
   name: "Button",
   props: {
-    Button: {
-      text: String,
-    },
+    text: String,
     color: String,
   },
   methods: {
-    addTaskHandler() {
-      console.log("you click me!");
+    onClick() {
+      this.$emit("toggle-addTask");
     },
   },
 };
