@@ -9,7 +9,7 @@
     {
       "text": "Meeting at School",
       "day": "March 3rd at 1:30pm",
-      "reminder": true,
+      "reminder": false,
       "id": 2
     },
     {
@@ -27,8 +27,14 @@
     {
       "text": "Robin Dadar Biye",
       "day": "Feb 31st at 8:40px",
-      "reminder": true,
+      "reminder": false,
       "id": 5
+    },
+    {
+      "text": "Robel Dadar Biye",
+      "day": "March 5th at 9:40pm",
+      "reminder": true,
+      "id": 6
     }
   ]
 }
