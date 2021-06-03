@@ -13,7 +13,6 @@ export default {
 
 <style scoped>
 .version {
-  text-align: center;
   margin-top: 20px;
 }
 </style>
