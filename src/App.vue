@@ -13,6 +13,7 @@
       @delete-task="deleteTask"
       v-bind:tasks="tasks"
     />
+    <router-view />
     <Footer />
   </div>
 </template>
