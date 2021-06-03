@@ -9,7 +9,7 @@
     {
       "text": "Meeting at School",
       "day": "March 3rd at 1:30pm",
-      "reminder": false,
+      "reminder": true,
       "id": 2
     },
     {
@@ -21,7 +21,7 @@
     {
       "text": "Dentist Bogra",
       "day": "Jul 11th at 5:00pm",
-      "reminder": true,
+      "reminder": false,
       "id": 4
     },
     {
