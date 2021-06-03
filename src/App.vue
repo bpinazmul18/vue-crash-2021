@@ -13,6 +13,7 @@
       @delete-task="deleteTask"
       v-bind:tasks="tasks"
     />
+    <Footer />
   </div>
 </template>
 
@@ -20,10 +21,12 @@
 import Header from "./components/Header";
 import Tasks from "./components/Tasks.vue";
 import AddTask from "./components/AddTask";
+import Footer from "./components/Footer";
 
 export default {
   name: "App",
   components: {
+    Footer,
     AddTask,
     Header,
     Tasks,
